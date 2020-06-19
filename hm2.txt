@@ -1,0 +1,38 @@
+
+        System.out.println(hmmm());
+     }
+      
+     // function 
+     public static void hmmm(){
+         // array
+         int[] studentPercentage = {70 , 90 , 30 , 90 , 80 , 84 , 69 , 92 , 63 , 45 } ;
+         // array2
+         char[] letterGrades = new char [10] ;
+         
+         for ( i = 0; , i < 11; , i++ ){
+             System.out.println(letterGrades[] , grades(i));
+         }
+         
+         
+         public static char grade (int x){
+             
+         char g = '0';
+
+         if(x>90)
+         g ='A';
+         else if(x>80)
+         g = 'B';
+          else if(x>70)
+         g = 'C';
+          else if(x>60)
+         g = 'D';
+          else 
+         g = 'F';
+
+         return g;
+
+
+     }
+            
+        
+    
